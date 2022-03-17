@@ -112,7 +112,7 @@ class verilogIOExtract():
             except:
                 pass
             if(param_name is not None):
-                self_param_str += "    .%s(),\n"%io_signal_str
+                self_param_str += "    .%s(),\n"%param_name
         self_param_str += ")"
         return self_param_str
     def instance_param_self(self):
