@@ -45,6 +45,8 @@ class verilogIOExtract():
         if(m_param_module_ioport is not None):
             param_str = m_param_module_ioport.group(1)
             ioport_str = m_param_module_ioport.group(2)
+        else:
+            param_str = ""
         self.get_io_lists(ioport_str)
         self.get_param_list(param_str)
 
