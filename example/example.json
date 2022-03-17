@@ -1,0 +1,14 @@
+{
+    "module_name": "dut_top",
+    "instance_list": [{
+            "module_path": "./example/generic_verilog.v",
+            "main_module": true,
+            "param_inherit": true
+        },
+        {
+            "module_path": "./example/parameterized_verilog.v",
+            "main_module": true,
+            "param_inherit": true
+        }
+    ]
+}
